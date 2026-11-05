@@ -6,10 +6,10 @@ The current page includes completed 2D semantic segmentation and 3D object detec
 
 ## Preview
 
-Open `index.html` in a current browser. For an HTTP preview, run this command from this directory and open <http://127.0.0.1:8814>:
+Open `index.html` in a current browser. For an HTTP preview, run this command from this directory and open <http://127.0.0.1:8818>:
 
 ```sh
-python -m http.server 8814 --bind 127.0.0.1
+python -m http.server 8818 --bind 127.0.0.1
 ```
 
 No npm installation or build is needed. All images, videos, scripts and styles are local. Visitors do not need Python; it is only an optional local preview server.
