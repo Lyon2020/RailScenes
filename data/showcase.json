@@ -1,0 +1,131 @@
+[
+  {
+    "id": "seg-01",
+    "task": "segmentation",
+    "title": "Curved tunnel",
+    "gif": "assets/previews/seg-01-gt-context-top-left.gif",
+    "video": "assets/videos/seg-01-gt-context-top-left.mp4",
+    "poster": "assets/posters/seg-01-gt-context-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 80,
+    "duration_ms": 6660,
+    "gt_outline_gif": "assets/previews/seg-01-gt-outlines.gif"
+  },
+  {
+    "id": "seg-02",
+    "task": "segmentation",
+    "title": "Enclosed corridor",
+    "gif": "assets/previews/seg-02-gt-context-top-left.gif",
+    "video": "assets/videos/seg-02-gt-context-top-left.mp4",
+    "poster": "assets/posters/seg-02-gt-context-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 29,
+    "duration_ms": 2410,
+    "gt_outline_gif": "assets/previews/seg-02-gt-outlines.gif"
+  },
+  {
+    "id": "seg-03",
+    "task": "segmentation",
+    "title": "Approaching an underground junction",
+    "gif": "assets/previews/seg-03-gt-context-top-left.gif",
+    "video": "assets/videos/seg-03-gt-context-top-left.mp4",
+    "poster": "assets/posters/seg-03-gt-context-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 100,
+    "duration_ms": 6670,
+    "gt_outline_gif": "assets/previews/seg-03-gt-outlines.gif"
+  },
+  {
+    "id": "det-01",
+    "task": "detection",
+    "title": "Signals along the corridor",
+    "gif": "assets/previews/det-01-top-left.gif",
+    "video": "assets/videos/det-01-top-left.mp4",
+    "poster": "assets/posters/det-01-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 37,
+    "duration_ms": 2467
+  },
+  {
+    "id": "det-02",
+    "task": "detection",
+    "title": "Trackside facilities in 3D",
+    "gif": "assets/previews/det-02-top-left.gif",
+    "video": "assets/videos/det-02-top-left.mp4",
+    "poster": "assets/posters/det-02-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 100,
+    "duration_ms": 6667
+  },
+  {
+    "id": "det-03",
+    "task": "detection",
+    "title": "Human beside the track",
+    "gif": "assets/previews/det-03-top-left.gif",
+    "video": "assets/videos/det-03-top-left.mp4",
+    "poster": "assets/posters/det-03-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 101,
+    "duration_ms": 6733
+  },
+  {
+    "id": "occ-01",
+    "task": "occupancy",
+    "title": "Tunnel corridor",
+    "gif": "assets/previews/occ-01-top-left.gif",
+    "video": "assets/videos/occ-01-top-left.mp4",
+    "poster": "assets/posters/occ-01-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 100,
+    "duration_ms": 6667
+  },
+  {
+    "id": "occ-02",
+    "task": "occupancy",
+    "title": "Curved tunnel",
+    "gif": "assets/previews/occ-02-top-left.gif",
+    "video": "assets/videos/occ-02-top-left.mp4",
+    "poster": "assets/posters/occ-02-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 100,
+    "duration_ms": 6667
+  },
+  {
+    "id": "occ-03",
+    "task": "occupancy",
+    "title": "Tunnel connection",
+    "gif": "assets/previews/occ-03-top-left.gif",
+    "video": "assets/videos/occ-03-top-left.mp4",
+    "poster": "assets/posters/occ-03-top-left.webp",
+    "size": [
+      640,
+      360
+    ],
+    "frames": 100,
+    "duration_ms": 6667
+  }
+]
