@@ -4,7 +4,7 @@ RailScenes: A Multi-Task Dataset and Benchmark for Railway Scene Understanding
 
 Project URL: https://Lyon2020.github.io/RailScenes/
 
-The opening displays three examples for each of semantic segmentation, 3D object detection, and semantic occupancy. All nine cards animate concurrently while the page is active. Phones use lightweight animated WebP files (3.83 MB in total) without video autoplay permission. Desktops use H.264 MP4, with animated WebP as the fallback if autoplay is denied or decoding fails. Real scene posters remain underneath the media and stay visible while assets load or if loading fails. Original GIFs remain in assets but are not requested by the opening gallery. There are no pause controls or enlargement links. All camera insets are at the upper left. Examples across task columns are independently selected, not synchronized multi-task comparisons. Existing three-times playback speed is preserved. Device power-saving settings, browser animation support and network availability can still affect actual playback.
+The opening displays three examples for each of semantic segmentation, 3D object detection, and semantic occupancy. The gallery directly embeds nine looping GIF images. It does not use MP4 players or depend on video autoplay permission. GIFs load as visitors approach them. There are no pause controls or enlargement links. All camera insets are at the upper left. Examples across task columns are independently selected, not synchronized multi-task comparisons.
 
 ## Files
 
