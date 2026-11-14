@@ -14,6 +14,11 @@
 .opening-paper-title{font-size:clamp(18px,1.55vw,24px);font-weight:700;color:#f5faf7;line-height:1.4;white-space:nowrap}
 @media(max-width:1199px){.opening-heading{flex-wrap:wrap;gap:16px}.opening-paper-title{flex-basis:100%;padding-left:0;border-left:0;white-space:normal}}
 .scene-media{cursor:default;transition:none}
+.scene-animation{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#000}
+.occupancy .scene-animation{background:#fff}
+.scene-gif{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000;pointer-events:none}
+.scene-gif[hidden]{display:none}
+.occupancy .scene-gif{background:#fff}
 .task-links{position:sticky;top:var(--task-header-height,58px);z-index:15;display:flex;flex-wrap:wrap;gap:10px;padding:12px 0;background:#f7faf8;border-bottom:1px solid #dce6df}
 .task-links a{border:1px solid #bdd2c7;background:#fff;color:#315b4e;font-weight:600;transition:background .18s,color .18s,border-color .18s;white-space:nowrap}
 .task-links a:hover{background:#e5efe8;border-color:#82a694}

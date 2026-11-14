@@ -4,7 +4,7 @@ RailScenes: A Multi-Task Dataset and Benchmark for Railway Scene Understanding
 
 Project URL: https://Lyon2020.github.io/RailScenes/
 
-The opening displays three examples for each of semantic segmentation, 3D object detection, and semantic occupancy. Videos play automatically in a display-only gallery without pause controls or enlargement links. All camera insets are at the upper left. Examples across task columns are independently selected, not synchronized multi-task comparisons.
+The opening displays three examples for each of semantic segmentation, 3D object detection, and semantic occupancy. The gallery directly embeds nine looping GIF images. It does not use MP4 players or depend on video autoplay permission. GIFs load as visitors approach them. There are no pause controls or enlargement links. All camera insets are at the upper left. Examples across task columns are independently selected, not synchronized multi-task comparisons.
 
 ## Files
 

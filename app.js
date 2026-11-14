@@ -1,21 +1,6 @@
 (() => {
  'use strict';
- const videos=[...document.querySelectorAll('.scene-video')];
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
- const visible=new Set();
- function update(v){
-   if(!reduced.matches&&!document.hidden&&visible.has(v)){
-     if(!v.hasAttribute('src'))v.src=v.dataset.src;
-     v.muted=true;v.play().catch(()=>{});
-   }else v.pause();
- }
- function refresh(){videos.forEach(update)}
- const observer=new IntersectionObserver(entries=>{
-   entries.forEach(e=>{if(e.isIntersecting)visible.add(e.target);else visible.delete(e.target);update(e.target)});
- },{rootMargin:'100px 0px'});
- videos.forEach(v=>observer.observe(v));
- reduced.addEventListener('change',refresh);
- document.addEventListener('visibilitychange',refresh);
  const sections=['preview','overview','benchmark','download','citation'].map(id=>document.getElementById(id));
  const links=[...document.querySelectorAll('.nav-wrap nav a')];let scheduled=false;
  function active(){scheduled=false;let id='preview';sections.forEach(s=>{if(s.getBoundingClientRect().top<180)id=s.id});links.forEach(a=>{if(a.hash==='#'+id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')})}
