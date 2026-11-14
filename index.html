@@ -7,7 +7,7 @@
 <meta property="og:description" content="Explore railway scenes through pixels, objects, and voxels. Three perception tasks, two operating lines, 11,445 camera–LiDAR samples.">
 <meta property="og:image" content="https://Lyon2020.github.io/RailScenes/assets/figures/overview.webp">
 <meta property="og:url" content="https://Lyon2020.github.io/RailScenes/"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="showcase.css"><script src="app.js" defer></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="showcase.css?v=20261114-all9"><script src="app.js" defer></script>
 </head><body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><div class="nav-wrap">
@@ -23,48 +23,66 @@
  </div>
  <div class="scene-columns">
 <section class="task-column segmentation" aria-labelledby="preview-segmentation"><header class="column-heading"><h2 id="preview-segmentation">2D Semantic Segmentation</h2></header><div class="scene-stack"><figure class="scene-tile" data-preview-id="seg-01">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/seg-01-gt-context-top-left.gif" alt="Curved tunnel" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRkYBAABXRUJQVlA4IDoBAADQCQCdASpAACQAPt1epU0opSOiMrbYARAbiWYAx6AOEMOQPeATuQE62NJDrhDDHBJA4zq8wG8Yy/2IycQne/oieFTAJOkf7jZf9luBOMLTKstybgfl2gAA8/75gHejYdqsOBbavG/cf5/iiHe17E7OfSIYSI0kWTfkigIEmBNqLz6xT+p6KRXd7o4lMsXAT24rIyPi/0V3RU2jI4BYeYjvfOWsKeKQge/iOedSW2V5ahTGhqy62NID07Sou0DuK8VHEK7p3UUjIJVHE3WJATsysDtcXlNAcFvyDSCVl+vAWOTcX4J/tJu9UaFvxt8KHDSVu4Lv6bflZhS34siKtsFt0oq5N2tYcH9WinGdJyJuApt9bWtfzcLmUpF/L9q+KLIUcjj1mdp3yS1gwVfmUcEdFnfkcnAna4AAAA==')">
+    <img class="scene-cover" src="assets/posters/seg-01-gt-context-top-left.webp" alt="Curved tunnel" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/seg-01-gt-context-top-left.mp4" data-mobile-src="assets/mobile/seg-01-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/seg-01-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Curved tunnel</h3></figcaption>
   </figure><figure class="scene-tile" data-preview-id="seg-02">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/seg-02-gt-context-top-left.gif" alt="Enclosed corridor" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRigBAABXRUJQVlA4IBwBAABQCACdASpAACQAPt1cn0yopSKiMrbbMRAbiWQAyAViAQ+OjYcqF4bhelQbXCVuj0r9Kao3sqJjvDl3qyKGdOrENbDFylSowgBdHqAAy6O2+gH7zawVCl4aRM7UM8OCZEMoPEbL6x7dPjandJX8vRO6LbQil+Hf1rbq1WWmRhztftvTmRLiF8IsZsfhUjZU8cM+go8LLyjZePBCzLYUVgmrIy16K985wgymo2xxMQnYGndqb/DZiQmGBg+GTa5on+kncx+vYmCVqC2zS/BRp45cyx8xceaks6XDxEIYdvAsUV4nQaajU7s6K1GKSacqjNCEwf3eMG9aJOvyrCruqoS2NoKpqf/6csrjAsHHNiMqa3LHNEV3A9tawwAAAA==')">
+    <img class="scene-cover" src="assets/posters/seg-02-gt-context-top-left.webp" alt="Enclosed corridor" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/seg-02-gt-context-top-left.mp4" data-mobile-src="assets/mobile/seg-02-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/seg-02-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Enclosed corridor</h3></figcaption>
   </figure><figure class="scene-tile" data-preview-id="seg-03">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/seg-03-gt-context-top-left.gif" alt="Approaching an underground junction" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRkgBAABXRUJQVlA4IDwBAADwCQCdASpAACQAPtVcoUyoJaMiMrbcyQAaiWYAw5/xx41swJ0n1Ww2NeSOPmxQYCpzOvE9cRAfycnwutehwtPt8oI2khVSof6+bVJuRXN5EkbrzGf0gXsAAPcfQEoSJRmd9MW+Do6ajVySSUDGGl6IyjorKUIus7yCqELG6aw/8WTdBjQ2I61LViVhPTEAjidPDnV5cpBkonpVGit68RMg2nIt9e/Nv/VtAT+q+oUM9THr9UshzIB0iizOeaTgWW8qMgki28TeiPiPQlc1HkHYAAjhGKWDW+YQZxzEVmaADG08ekpMhXRZUalhzII6aViZWM8mYJBYYdpN6W9R50Rq79eZDPeZk1kvSe2RkTaukrYb+jstxk/CH3X4VDQmsbR5TkmxjR71lZIggSeVZepwVJzQ+Rl5Bo+RQAAA')">
+    <img class="scene-cover" src="assets/posters/seg-03-gt-context-top-left.webp" alt="Approaching an underground junction" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/seg-03-gt-context-top-left.mp4" data-mobile-src="assets/mobile/seg-03-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/seg-03-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Approaching an underground junction</h3></figcaption>
   </figure></div></section><section class="task-column detection" aria-labelledby="preview-detection"><header class="column-heading"><h2 id="preview-detection">3D Object Detection</h2></header><div class="scene-stack"><figure class="scene-tile" data-preview-id="det-01">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/det-01-top-left.gif" alt="Signals along the corridor" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRh4BAABXRUJQVlA4IBIBAABQBwCdASpAACQAPt1kpE6opaMiLVZraRAbiUAZsIUN9JdJX09tAZOkfneTy9cciIVE2Z9cgQtAZSSt5KPjVCWooM+gAP6sXJm61Ja6I+do9Tb7lLqFvPLnfZ6zdCzySi7/9wTlDM3IoSSsnvG4Fa+h0E+WisnHAbl5S7aK+MzHVAECrr3JRgiGJ/X0nxeRR37loamhL5gMFmOlQ01caRssDozrwkzlDJuglv6D/499GwZEN5tcZq2C8t2HEO0Nl2VOXofMrfs0YJXoSDADyFrrg+K18HPbLywqwhPnF5VQzDqbQTFe3qDtaND0G5yMfUhtpRCZ+PLO0w341iEyOIjC0yDr6Rh/3uXwanpvaJGS4AAA')">
+    <img class="scene-cover" src="assets/posters/det-01-top-left.webp" alt="Signals along the corridor" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/det-01-top-left.mp4" data-mobile-src="assets/mobile/det-01-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/det-01-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Signals along the corridor</h3></figcaption>
   </figure><figure class="scene-tile" data-preview-id="det-02">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/det-02-top-left.gif" alt="Trackside facilities in 3D" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRkABAABXRUJQVlA4IDQBAACQCACdASpAACQAPt1kqU+opaOiKrgKARAbiUAZGoRWEvgHJXFc9y9zG+rcaJ+JjuSfwLHONN5cv0wtjjZX/9PaeR8/32zAxTXqGzIRAAD+h8rD7byzgnbwLrLWg+vGleXShOnUrX5f3VFAeuGgnXttstfiyzMMotPEI2uHhkUIpZJlM3+6AQZ5zFHQdS8pnGE2MSzCFGeQ44IhcA2Lqep+Kk/97P6+ZgAn0CTD9YfgH/qCsW8V6GpwbPkkolmWQcnw+PRtvqml3xNmbvS5Qmwk/5PtM/S/7C7Tw026+li1Kxqr/ke8Gn67scvVH+FaEMfUkt0fHZs/Zfo0/hocc4I1KGaRr/JRCXUM6Trs60hyeyy2XQUs7ICU2xdd1QSx1uey8R+tHccty96Q4Nk76BDix+AAAA==')">
+    <img class="scene-cover" src="assets/posters/det-02-top-left.webp" alt="Trackside facilities in 3D" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/det-02-top-left.mp4" data-mobile-src="assets/mobile/det-02-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/det-02-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Trackside facilities in 3D</h3></figcaption>
   </figure><figure class="scene-tile" data-preview-id="det-03">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/det-03-top-left.gif" alt="Human beside the track" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRkQBAABXRUJQVlA4IDgBAADQBwCdASpAACQAPt1kp04opaOiLVZqSRAbiUAaXQOKHnL4HmjeT/4w6uGokdZB3+7q27hAlSPGw2TAhR/1vMxZNUoBvJPwAAD+7Ayf0Lu/gitUrTyiMV6ftKnxnOuth9ViJ67P0Vua1HU2qf3ptzhJCekSjGvAL4tE6D1XiYIijscxJhahBMYTUzNpbQTaeanAGD6Fb0WNX3kFqiFUIlp2UZWKBTqy9XwnFkzQmrpfNYkjDxKM6jahtwnKf+G7wy5IrtVTB2/X59XY73MjOoAw4oV1ThCLzJ9z10cZ5X60D7j1LeoareIysUn67ngqOxosvvMH3ouaKX9viO4d2bU8J8jDa7WZsjADjJtpDCzLRpUzphlItATeGAc0s012eVvpTQw5zmQce9R1XDGmr+YZlAQvRreQAAA=')">
+    <img class="scene-cover" src="assets/posters/det-03-top-left.webp" alt="Human beside the track" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/det-03-top-left.mp4" data-mobile-src="assets/mobile/det-03-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/det-03-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Human beside the track</h3></figcaption>
   </figure></div></section><section class="task-column occupancy" aria-labelledby="preview-occupancy"><header class="column-heading"><h2 id="preview-occupancy">3D Semantic Occupancy</h2></header><div class="scene-stack"><figure class="scene-tile" data-preview-id="occ-01">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/occ-01-top-left.gif" alt="Tunnel corridor" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRtwBAABXRUJQVlA4INABAAAQCwCdASpAACQAPt1cpkyopSOiLVZtsRAbiWwAxjPHnyYtfAA20/PAeiLeAN5yRrMSMwpEpnFv1Hn771ETMXLlcOgPhl6BoEKXBV5vyLRKNS+MtcOdq3pSGV2GZz9s9xIQAP7ijZNEFtm7gervObeqiRY3orWXcLRZRBoyCevmBuBq9SiLrUIkT3mwcisKx+SYGzoiI3OO2BmMXZz4dXpFkjqeq/Uv2tj7n4Nkv618+QCx0b+82DqB33P+XqURRSke5niSZ/wOpP5LMwf3jaY4bi+K0BvOAE1dPSjuhc6fq0IaC6HBmb99mC6II8BoK12wW5DdYm/KgUSTYbQzV3KS+cQRW77NIF1VMrp08f50L0PlK5WsXmoyi0n4uhFvm+blWQpHuwAbTsGNwL8jNph/RWF/n2U2nwXnrVX+peSgLz82huZkO10tVkDeQtXijkdrkHslgO9m9Lv0rm8piNwP5G0z4pTilceufihqwxMazOy6jW88TmxWJj8/8rMKxFm0LnNzu3fvhby17Wx0iBUgaR7Sg5TlZso7xwnAnmx7AejMa1ld4W+HUeUf7BPc3yH19tS7sVXib2XLCn1/tJSYYzuhKofnNSQWbPdMnhRAAA==')">
+    <img class="scene-cover" src="assets/posters/occ-01-top-left.webp" alt="Tunnel corridor" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/occ-01-top-left.mp4" data-mobile-src="assets/mobile/occ-01-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/occ-01-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Tunnel corridor</h3></figcaption>
   </figure><figure class="scene-tile" data-preview-id="occ-02">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/occ-02-top-left.gif" alt="Curved tunnel" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRtYBAABXRUJQVlA4IMoBAADwCgCdASpAACQAPt1iqk0opiQiKrQM+RAbiWwAyE/tKnhb8ADbJ+YDzqtMa3lgr7zfnJQHGLltrj4IeUCAbX5OGVPzQWK5yCRbYUaqgqmKnXUm8bJgBgrm2wohiWFdWAAA/rgzE1YVQCJlbYA1dTXMcG5T/i/KWR8V+vrEofA1vKBY229CcWkL436M6kPlwjuzzyAUvUISxoU1szAlvV8/RHCl1VL/UZ5c2jMr4Y93tDVqaTj3l81cDAGPkgTTEo7lGcfjLoAYrJ2DXEIADRubL/1OxwMr+XHEF+H+Qi+9vnpQ9fPggY9kCJzzuaiDK+QO1lDIzT78MEP/8TmESi9rzm/TQTTnJY50sVMvctLkxB8IrCVeHiv42RjWu8ZPt8fJVXQT3zmU7Eps7L+FcDS3ZxmyLx7b6DJs79ghx8nqK55onIvWsBvSvCczdkxVCqELyVDwt5HrjohSAhSZ4dW3SRpigPvPGyJh5F0TKgLNDUm8n5UA6IOhvfln8Kcs4/Rx9Sszvkz8eONbLFRSREHqONCpGZQuYvYuWO5pwvZwX67jbZkuMbsnMyKclcrHz7jcbebGrB6RX4OFEvyHp3oiYoJL7lDEfWBgAA==')">
+    <img class="scene-cover" src="assets/posters/occ-02-top-left.webp" alt="Curved tunnel" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/occ-02-top-left.mp4" data-mobile-src="assets/mobile/occ-02-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/occ-02-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Curved tunnel</h3></figcaption>
   </figure><figure class="scene-tile" data-preview-id="occ-03">
-   <div class="scene-media">
-    <img class="scene-animation" src="assets/previews/occ-03-top-left.gif" alt="Tunnel connection" loading="lazy" decoding="async" width="640" height="360">
+   <div class="scene-media" style="background-image:url('data:image/webp;base64,UklGRroBAABXRUJQVlA4IK4BAACQCwCdASpAACQAPt1co0yopSMiNVQKARAbiWwAeQP26+ftQBgOUA9RnPFaZn6FfSuPrYxYtuMZoTnBHKw9Oosna6ZWUTEmX1aE/+ncNonoRo1ae5Ng11n0MNXqzIxzC3p2A3uV0AD+uDMTVgjZaTx61howbB0PS38fnhl3+2KDeUvhSkGnHy87aK70yMxBd0oiZ2VcxS0Q5AaoRFeBBTVaRRrCSlj6/mwqzmuUw0BR3dX8pj3PuVBnQO4wovUazp86Xdt2vdOTstCZyEjI8PHLhKSZSn5Y7bvIuZz4P9azfbrO3SIJc5x4+Wi2/CeHUscukUkW7EePJtdMHRFerZ3+17TzSgpnvFs1uiF+qZoutfJNnjcrZH/ck/8pqgIS6mk1zYMz6NmaFxOYqjannta0GenzlSyj6CyY9REWd8jaAjThdW7ritFCcENDP783k0l6iz+0OL/nnLAp59ZUP0yzdfTu/WEpVFaQw26RYg6M2Fv1ouVdGMOccPda66Nwek0ugL1hZMT6UqcILSRY8vzDdwkd/XFtSkLuUnQ6N5WhS4MYp42YHzk0bR1vDQAA')">
+    <img class="scene-cover" src="assets/posters/occ-03-top-left.webp" alt="Tunnel connection" loading="lazy" decoding="async" width="640" height="360">
+    <video class="scene-video" muted loop playsinline webkit-playsinline preload="none" disablepictureinpicture tabindex="-1" aria-hidden="true" data-desktop-src="assets/videos/occ-03-top-left.mp4" data-mobile-src="assets/mobile/occ-03-384-v1.mp4"></video>
+    <img class="scene-fallback" data-src="assets/mobile/occ-03-384-v1.webp" alt="" aria-hidden="true" width="384" height="216" hidden>
    </div>
    <figcaption><h3>Tunnel connection</h3></figcaption>
   </figure></div></section></div>
